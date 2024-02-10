@@ -1,0 +1,12 @@
+- All the files are currently in the `autograder/` folder.
+- Replace `grades.csv` with the new grades.
+- Modify grade displaying logic
+	- ![[Pasted image 20240210015354.png]]
+	- To add a new section, define a new function that takes in `grades` and `gs_output`
+	- Inside the function. decide what you want to display in that section. For example, the function above corresponds to this section on Gradescope![[Screenshot 2024-02-10 at 01.54.37.png]]
+	- ![[Screenshot 2024-02-10 at 01.55.32.png]]
+	- Make sure to call your custom function at the end so it get included in the output.
+- ![[Screenshot 2024-02-10 at 01.56.36.png]]Finally, in the `autograder/` folder, select these files and create a zip file. Make sure you don't zip the folder, but zip the files
+- Head over to Gradescope and create a new programming assignment.![[Pasted image 20240210015825.png]]
+- Upload the zip file. The autograder will then finish configuration automatically.![[Screenshot 2024-02-10 at 01.57.32.png]]
+- This is it - once everything finishes, you should see student grade reports under "Manage Submissions." If scores aren't updating, try running "Regrade All Submissions" in the bottom right.
